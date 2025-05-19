@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Байланыс - Tulpar Auto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(120deg, #1a1a1a 0%, #222 100%);
+            min-height: 100vh;
+        }
+        .contact-outer {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 0;
+        }
+        .contact-card {
+            background: rgba(255,255,255,0.97);
+            border-radius: 2rem;
+            box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
+            padding: 2.5rem 2.2rem 2rem 2.2rem;
+            max-width: 420px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2.2rem;
+            border: 2px solid #d32f2f22;
+            margin-top: 110px;
+        }
+        .contact-card h1 {
+            color: #d32f2f;
+            font-family: 'Saira Condensed', 'Cal Sans', Arial, sans-serif;
+            font-size: 2.3rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+        }
+        .contact-phones {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.7rem;
+        }
+        .phone-row {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            font-size: 1.15rem;
+            color: #222;
+            background: #f7f7f7;
+            border-radius: 1.2rem;
+            padding: 0.7rem 1.1rem;
+            box-shadow: 0 2px 12px 0 rgba(211,47,47,0.06);
+        }
+        .phone-row i {
+            color: #d32f2f;
+            font-size: 1.4rem;
+            background: #fff;
+            border-radius: 50%;
+            padding: 0.3rem;
+            box-shadow: 0 2px 8px 0 rgba(211,47,47,0.08);
+        }
+        .wa-row {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            margin-top: 0.2rem;
+        }
+        .wa-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #25d366;
+            color: #fff;
+            border: none;
+            border-radius: 2rem;
+            padding: 0.5rem 1.2rem;
+            font-size: 1.08rem;
+            font-weight: 500;
+            text-decoration: none;
+            box-shadow: 0 2px 12px 0 rgba(37,211,102,0.10);
+            transition: background 0.2s, color 0.2s;
+        }
+        .wa-btn:hover {
+            background: #128c7e;
+            color: #fff;
+        }
+        .contact-socials {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            margin-top: 0.5rem;
+        }
+        .social-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: #fff;
+            box-shadow: 0 2px 12px 0 rgba(211,47,47,0.10);
+            font-size: 2rem;
+            color: #d32f2f;
+            transition: background 0.2s, color 0.2s, transform 0.2s;
+        }
+        .social-btn.youtube {
+            color: #ff0000;
+        }
+        .social-btn.tiktok {
+            color: #000;
+        }
+        .social-btn:hover {
+            background: #d32f2f;
+            color: #fff;
+            transform: scale(1.08);
+        }
+        @media (max-width: 600px) {
+            .contact-card {
+                padding: 1.2rem 0.5rem;
+                border-radius: 1.2rem;
+                margin-top: 80px;
+            }
+            .contact-card h1 {
+                font-size: 1.5rem;
+            }
+            .social-btn {
+                width: 40px;
+                height: 40px;
+                font-size: 1.5rem;
+            }
+        }
+        @media (max-width: 700px) {
+            .desktop-nav ul li a {
+                font-family: Arial, Helvetica, sans-serif !important;
+                font-weight: 400;
+                letter-spacing: 0.01em;
+                font-size: 1rem;
+            }
+        }
+        header {
+            background: rgba(255,255,255,0.95);
+            box-shadow: 0 2px 16px 0 rgba(0,0,0,0.04);
+            position: relative;
+            z-index: 10;
+        }
+        .desktop-nav ul li a {
+            font-family: Arial, Helvetica, sans-serif !important;
+            font-weight: 400;
+            letter-spacing: 0.01em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="desktop-nav">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Tulpar Auto Logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Басты бет</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="about.html">Компания туралы</a></li>
+                <li><a href="founder.html">Негізін қалаушы</a></li>
+                <li><a href="contact.html" class="active">Байланыс</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-nav">
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <div class="contact-outer">
+        <section class="contact-card">
+            <h1>Байланыс</h1>
+            <div class="contact-phones">
+                <div class="phone-row"><i class="fas fa-phone"></i>+7 776 065 1999</div>
+                <div class="wa-row"><a class="wa-btn" href="https://wa.me/77760651999" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
+                <div class="phone-row"><i class="fas fa-phone"></i>+7 776 055 1999</div>
+                <div class="wa-row"><a class="wa-btn" href="https://wa.me/77760551999" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
+            </div>
+            <div class="contact-socials">
+                <a href="https://youtube.com/shorts/_IoxMJwts9U?si=a5wxu-Q-5xlU4d2y" target="_blank" class="social-btn youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://vt.tiktok.com/ZShM53UBR/" target="_blank" class="social-btn tiktok" title="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.jpg" alt="Tulpar Auto Logo">
+            </div>
+            <div class="footer-socials">
+                <a href="https://wa.me/77760651999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://instagram.com/tulpar_autokaz" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/shorts/_IoxMJwts9U?si=a5wxu-Q-5xlU4d2y" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://vt.tiktok.com/ZShM53UBR/" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <div class="footer-text">
+                &copy; 2024 Tulpar Auto. Барлық құқықтар қорғалған.
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 

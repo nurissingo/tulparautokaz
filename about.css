@@ -1,0 +1,105 @@
+.about-main {
+    padding: 100px 5% 50px;
+}
+
+.about-hero {
+    text-align: center;
+    padding: 4rem 0;
+    background: linear-gradient(rgba(24,24,24,0.85), rgba(24,24,24,0.85)),
+                url('images/about-bg.jpg') center/cover;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.about-hero p {
+    color: #fff;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.about-card {
+    background: #181818;
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s;
+}
+
+.about-card:hover {
+    transform: translateY(-10px);
+}
+
+.about-card h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.about-card p {
+    color: #fff;
+}
+
+.about-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-card li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #fff;
+}
+
+.about-card li::before {
+    content: '•';
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+}
+
+.achievements {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.achievement {
+    text-align: center;
+    padding: 1rem;
+    background: rgba(227, 38, 43, 0.12);
+    border-radius: 5px;
+}
+
+.achievement .number {
+    display: block;
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.achievement .label {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .about-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+} 

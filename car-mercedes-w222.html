@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes W222 S560 - Толығырақ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .car-detail-section {
+            max-width: 1100px;
+            margin: 120px auto 2rem auto;
+            background: rgba(255,255,255,0.97);
+            border-radius: 2rem;
+            box-shadow: 0 8px 32px 0 rgba(31,38,135,0.13);
+            padding: 2.5rem 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2.5rem;
+            align-items: flex-start;
+        }
+        .car-gallery {
+            flex: 1 1 340px;
+            min-width: 320px;
+            max-width: 420px;
+        }
+        .car-gallery-main {
+            width: 100%;
+            aspect-ratio: 9/16;
+            border-radius: 1.2rem;
+            object-fit: cover;
+            box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10);
+            margin-bottom: 1rem;
+        }
+        .car-gallery-thumbs {
+            display: flex;
+            gap: 0.5rem;
+            justify-content: flex-start;
+            overflow-x: auto;
+            background: #fff;
+            padding: 0.5rem 0.2rem;
+            border-radius: 0.7rem;
+            scrollbar-width: thin;
+            scrollbar-color: #d32f2f #eee;
+            max-width: 100%;
+        }
+        .car-gallery-thumbs::-webkit-scrollbar {
+            height: 7px;
+            background: #eee;
+            border-radius: 4px;
+        }
+        .car-gallery-thumbs::-webkit-scrollbar-thumb {
+            background: #d32f2f;
+            border-radius: 4px;
+        }
+        .car-gallery-thumb {
+            width: 60px;
+            height: 45px;
+            object-fit: cover;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            border: 2px solid #eee;
+            transition: border 0.2s;
+        }
+        .car-gallery-thumb.active, .car-gallery-thumb:hover {
+            border: 2px solid #d32f2f;
+        }
+        .car-detail-info {
+            flex: 2 1 350px;
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+        }
+        .car-detail-info h1 {
+            color: #d32f2f;
+            font-size: 2.2rem;
+            font-family: 'Saira Condensed', Arial, Helvetica, sans-serif;
+        }
+        .car-detail-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1rem 0;
+            color: #222;
+            font-size: 1.1rem;
+            font-family: Arial, Helvetica, sans-serif !important;
+        }
+        .car-detail-list li {
+            margin-bottom: 0.4rem;
+        }
+        .car-detail-desc {
+            color: #222;
+            font-size: 1.08rem;
+            line-height: 1.7;
+            margin-bottom: 0.7em;
+            font-family: Arial, Helvetica, sans-serif !important;
+        }
+        .car-detail-actions {
+            margin-top: 1.2rem;
+            display: flex;
+            gap: 1.2rem;
+        }
+        .car-detail-actions .cta-button {
+            font-size: 1.1rem;
+            padding: 0.8rem 2.2rem;
+            font-family: Arial, Helvetica, sans-serif !important;
+        }
+        @media (max-width: 900px) {
+            .car-detail-section {
+                flex-direction: column;
+                gap: 1.5rem;
+                padding: 1.2rem 0.5rem;
+            }
+            .car-gallery {
+                max-width: 100%;
+                margin: 0 auto;
+            }
+        }
+        @media (max-width: 700px) {
+            .car-gallery-thumbs {
+                gap: 0.3rem;
+                padding: 0.3rem 0.1rem;
+            }
+            .car-gallery-thumb {
+                width: 44px;
+                height: 33px;
+            }
+        }
+        body, .car-detail-info h1, .car-detail-list, .car-detail-list li, .car-detail-desc, .car-detail-actions .cta-button {
+            font-family: Arial, Helvetica, sans-serif !important;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="desktop-nav">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Tulpar Auto Logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Басты бет</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="about.html">Компания туралы</a></li>
+                <li><a href="founder.html">Негізін қалаушы</a></li>
+                <li><a href="contact.html">Байланыс</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-nav">
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="car-detail-section">
+            <div class="car-gallery">
+                <img id="mainImage" src="images/cars/mercedes-w222/mercedes-w222-1.jpeg" alt="Mercedes W222 S560" class="car-gallery-main">
+                <div class="car-gallery-thumbs">
+                    <img src="images/cars/mercedes-w222/mercedes-w222-1.jpeg" class="car-gallery-thumb active" onclick="changeImage(this)" alt="Mercedes W222 1">
+                    <img src="images/cars/mercedes-w222/mercedes-w222-2.jpeg" class="car-gallery-thumb" onclick="changeImage(this)" alt="Mercedes W222 2">
+                    <img src="images/cars/mercedes-w222/mercedes-w222-3.jpeg" class="car-gallery-thumb" onclick="changeImage(this)" alt="Mercedes W222 3">
+                    <img src="images/cars/mercedes-w222/mercedes-w222-4.jpeg" class="car-gallery-thumb" onclick="changeImage(this)" alt="Mercedes W222 4">
+                    <img src="images/cars/mercedes-w222/mercedes-w222-5.jpeg" class="car-gallery-thumb" onclick="changeImage(this)" alt="Mercedes W222 5">
+                </div>
+            </div>
+            <div class="car-detail-info">
+                <h1>Mercedes W222 S560</h1>
+                <ul class="car-detail-list">
+                    <li><b>Жыл:</b> 2018</li>
+                    <li><b>Қозғалтқыш:</b> 4.0L Bi Turbo бензин</li>
+                    <li><b>Түсі:</b> —</li>
+                    <li><b>Жабдықталуы:</b> —</li>
+                </ul>
+                <p class="car-detail-desc">
+                    Mercedes W222 S560 — неміс LUX класс седан. 4.0 литрлік биттурбо қозғалтқыш, әлемдегі ең озық технологиялар, премиум интерьер және ең жоғары деңгейдегі жайлылық.
+                </p>
+                <div class="car-detail-actions">
+                    <a href="contact.html" class="cta-button">Сатып алу/Кеңес алу</a>
+                    <a href="catalog.html" class="cta-button" style="background:#222;">Каталогқа оралу</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.jpg" alt="Tulpar Auto Logo">
+            </div>
+            <div class="footer-socials">
+                <a href="https://wa.me/yournumber" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://instagram.com/tulpar_autokaz" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/yourchannel" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://tiktok.com/@yourusername" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <div class="footer-text">
+                &copy; 2024 Tulpar Auto. Барлық құқықтар қорғалған.
+            </div>
+        </div>
+    </footer>
+    <script>
+        function changeImage(el) {
+            document.getElementById('mainImage').src = el.src;
+            document.querySelectorAll('.car-gallery-thumb').forEach(img => img.classList.remove('active'));
+            el.classList.add('active');
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html> 
