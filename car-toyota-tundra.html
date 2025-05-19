@@ -106,10 +106,20 @@
                 flex-direction: column;
                 gap: 1.5rem;
                 padding: 1.2rem 0.5rem;
+                margin-top: 100px;
             }
             .car-gallery {
                 max-width: 100%;
                 margin: 0 auto;
+            }
+            .car-detail-info h1 {
+                font-size: 1.8rem;
+            }
+            .car-detail-list {
+                font-size: 1rem;
+            }
+            .car-detail-desc {
+                font-size: 1rem;
             }
         }
         @media (max-width: 700px) {
@@ -120,6 +130,45 @@
             .car-gallery-thumb {
                 width: 44px;
                 height: 33px;
+            }
+            .car-detail-info h1 {
+                font-size: 1.6rem;
+            }
+            .car-detail-list {
+                font-size: 0.9rem;
+            }
+            .car-detail-desc {
+                font-size: 0.9rem;
+                line-height: 1.5;
+            }
+            .car-detail-actions {
+                flex-direction: column;
+                gap: 0.8rem;
+            }
+            .car-detail-actions .cta-button {
+                width: 100%;
+                text-align: center;
+                font-size: 1rem;
+                padding: 0.7rem 1.5rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .car-detail-section {
+                padding: 1rem 0.3rem;
+                margin-top: 80px;
+            }
+            .car-detail-info h1 {
+                font-size: 1.4rem;
+            }
+            .car-detail-list {
+                font-size: 0.85rem;
+            }
+            .car-detail-desc {
+                font-size: 0.85rem;
+            }
+            .car-detail-actions .cta-button {
+                font-size: 0.9rem;
+                padding: 0.6rem 1.2rem;
             }
         }
     </style>
@@ -201,7 +250,7 @@
     <script src="script.js"></script>
     <style>
         body, .car-detail-info h1, .car-detail-list, .car-detail-desc, .car-detail-actions .cta-button {
-            font-family: Arial, Helvetica, sans-serif !important;
+            font-family: 'Roboto', sans-serif !important;
         }
     </style>
 </body>
