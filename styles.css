@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+=======
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@900&display=swap');
 
@@ -17,7 +20,11 @@
 }
 
 body {
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
     background-color: var(--background-color);
     color: var(--text-color);
 }
@@ -55,7 +62,11 @@ header {
 }
 
 .desktop-nav ul li a {
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
     font-weight: normal;
     font-size: 16px;
     letter-spacing: normal;
@@ -109,7 +120,11 @@ header {
     font-size: 4rem;
     margin-bottom: 1rem;
     color: var(--primary-color);
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
     letter-spacing: 2px;
 }
 
@@ -118,7 +133,11 @@ header {
     margin-top: -1.2rem;
     font-size: 1.45rem;
     color: #222;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
     font-weight: 400;
 }
 
@@ -130,7 +149,11 @@ header {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 2rem;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
     font-size: 1.1rem;
     letter-spacing: 1px;
     transition: transform 0.3s, background 0.3s;
@@ -291,7 +314,11 @@ footer {
     font-size: 1rem;
     opacity: 0.85;
     margin-top: 0.5rem;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
     letter-spacing: 1px;
 }
 
@@ -354,7 +381,11 @@ footer {
 .mobile-menu li a {
     color: #111;
     font-size: 1.3rem;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif !important;
+=======
+    font-family: Arial, Helvetica, sans-serif !important;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
     text-decoration: none;
     font-weight: 400;
     letter-spacing: 0.01em;
@@ -463,7 +494,11 @@ footer {
     font-size: 2.1rem;
     margin-bottom: 2rem;
     color: var(--primary-color);
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
 }
 .advantage-list {
     display: grid;
@@ -480,7 +515,11 @@ footer {
     flex-direction: column;
     align-items: center;
     transition: transform 0.2s, box-shadow 0.2s;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
 }
 .advantage-item i {
     font-size: 2.3rem;
@@ -510,12 +549,20 @@ footer {
     color: var(--primary-color);
     font-size: 2rem;
     margin-bottom: 1.2rem;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
 }
 .about-short p {
     color: #222;
     font-size: 1.15rem;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
 }
 
 .services {
@@ -527,7 +574,11 @@ footer {
     font-size: 2.1rem;
     margin-bottom: 2rem;
     color: var(--primary-color);
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
 }
 .service-list {
     display: grid;
@@ -544,7 +595,11 @@ footer {
     flex-direction: column;
     align-items: center;
     transition: transform 0.2s, box-shadow 0.2s;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
 }
 .service-item i {
     font-size: 2.3rem;
@@ -573,7 +628,11 @@ footer {
     color: var(--primary-color);
     font-size: 2rem;
     margin-bottom: 1.2rem;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
     text-align: center;
 }
 .faq-list {
@@ -592,12 +651,20 @@ footer {
     color: var(--primary-color);
     font-size: 1.1rem;
     margin-bottom: 0.3rem;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
 }
 .faq-a {
     color: #222;
     font-size: 1.05rem;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
 }
 
 .mini-contact {
@@ -613,7 +680,11 @@ footer {
     color: var(--primary-color);
     font-size: 2rem;
     margin-bottom: 1.2rem;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
 }
 .mini-contact-form {
     display: flex;
@@ -628,7 +699,11 @@ footer {
     border-radius: 7px;
     border: 1.5px solid #eee;
     font-size: 1.1rem;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
     background: #f7f7f7;
     color: #222;
     outline: none;
@@ -644,7 +719,11 @@ footer {
     border-radius: 7px;
     padding: 0.8rem 2.2rem;
     font-size: 1.1rem;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
     font-weight: 700;
     cursor: pointer;
     transition: background 0.2s, transform 0.2s;
@@ -667,9 +746,17 @@ footer {
 }
 
 .advantages h2, .about-short h2, .services h2, .faq h2, .mini-contact h2 {
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
 }
 
 .advantage-item, .service-item, .faq-q, .faq-a, .about-short p, .mini-contact-form input, .mini-contact-form button {
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.advantage-item, .service-item, .faq-q, .faq-a, .about-short p, .mini-contact-form input, .mini-contact-form button {
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
 }

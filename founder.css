@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Founder Page Styles */
 body {
     background: #f8f9fa;
@@ -10,10 +11,21 @@ body {
 .founder-hero {
     height: 50vh;
     padding-top: 80px;
+=======
+.founder-main {
+    padding: 100px 5% 50px;
+}
+
+.founder-hero {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('images/hero-founder.jpg') center/cover no-repeat;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+<<<<<<< HEAD
     color: #333;
     position: relative;
     overflow: hidden;
@@ -27,10 +39,24 @@ body {
 
 .hero-content h1 {
     font-family: 'Roboto', sans-serif;
+=======
+    color: white;
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-family: 'Oswald', sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 1rem;
     letter-spacing: 2px;
+<<<<<<< HEAD
     color: white;
 }
 
@@ -55,11 +81,26 @@ body {
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+=======
+}
+
+.hero-content p {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.founder-content {
+    padding: 80px 0;
+    background: #f8f9fa;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
 }
 
 .founder-profile {
     display: grid;
     grid-template-columns: 1fr 2fr;
+<<<<<<< HEAD
     min-height: 600px;
     align-items: center;
 }
@@ -94,12 +135,47 @@ body {
 }
 
 .founder-info h2 {
+=======
+    gap: 50px;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.founder-image {
+    position: relative;
+}
+
+.founder-image img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.founder-image:hover img {
+    transform: scale(1.02);
+}
+
+.founder-info h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    color: #d32f2f;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.founder-info h3 {
+    font-family: 'Saira Condensed', sans-serif;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
     font-size: 1.5rem;
     color: #555;
     margin-bottom: 2rem;
     font-weight: 400;
 }
 
+<<<<<<< HEAD
 .founder-bio {
     font-size: 1.1rem;
     line-height: 1.8;
@@ -125,6 +201,42 @@ body {
     color: #d32f2f;
     margin-bottom: 20px;
     text-align: center;
+=======
+.founder-description {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.founder-description p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    margin: 0;
+}
+
+.achievements {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.achievements h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    color: #d32f2f;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.achievements ul {
+    list-style: none;
+    padding: 0;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
 }
 
 .achievements li {
@@ -133,6 +245,7 @@ body {
     margin-bottom: 15px;
     font-size: 1.1rem;
     color: #333;
+<<<<<<< HEAD
     padding: 15px;
     background: white;
     border-radius: 10px;
@@ -205,10 +318,77 @@ body {
 
     .founder-quote p {
         font-size: 1.1rem;
+=======
+}
+
+.achievement-icon {
+    color: #d32f2f;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+.founder-values {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.founder-values h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    color: #d32f2f;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.founder-values p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    font-style: italic;
+    margin: 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.founder-values p:before {
+    content: '"';
+    position: absolute;
+    left: 0;
+    top: -10px;
+    font-size: 3rem;
+    color: #d32f2f;
+    opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+    .founder-profile {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .founder-info h2 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+    
+    .founder-content {
+        padding: 50px 0;
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
     }
 }
 
 @media (max-width: 480px) {
+<<<<<<< HEAD
     .founder-info h1 {
         font-size: 1.8rem;
     }
@@ -258,4 +438,113 @@ body {
         font-size: 1.2rem;
     }
 } 
+=======
+    .founder-info h2 {
+        font-size: 2rem;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .founder-description,
+    .achievements,
+    .founder-values {
+        padding: 20px;
+    }
+}
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background: var(--primary-color);
+}
+
+.timeline-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background: var(--primary-color);
+    border-radius: 50%;
+}
+
+.year {
+    flex: 1;
+    text-align: right;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.timeline-item .content {
+    flex: 1;
+    padding-left: 2rem;
+    background: #181818;
+    padding: 1.5rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.timeline-item .content h3, .timeline-item .content p {
+    color: #fff;
+}
+
+.founder-quote {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 3rem;
+    background: #181818;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.founder-quote blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--primary-color);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .timeline::before {
+        left: 0;
+    }
+    
+    .timeline-item {
+        flex-direction: column;
+    }
+    
+    .year {
+        text-align: left;
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .timeline-item::before {
+        left: 0;
+    }
+>>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
 } 
