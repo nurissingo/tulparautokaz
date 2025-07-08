@@ -1,550 +1,201 @@
-<<<<<<< HEAD
-/* Founder Page Styles */
+/* Минималистік стиль */
 body {
-    background: #f8f9fa;
+    background: #fff;
     min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
     overflow-x: hidden;
 }
 
-/* Founder Hero Section */
 .founder-hero {
-    height: 50vh;
-    padding-top: 80px;
-=======
-.founder-main {
-    padding: 100px 5% 50px;
-}
-
-.founder-hero {
-    height: 60vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('images/hero-founder.jpg') center/cover no-repeat;
->>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
+    height: 180px;
+    background: #f5f5f5;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-<<<<<<< HEAD
-    color: #333;
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(45deg, #d32f2f, #b71c1c);
-}
-
-.hero-content {
-    position: relative;
-    z-index: 2;
+    color: #222;
+    border-bottom: 1px solid #eee;
 }
 
 .hero-content h1 {
-    font-family: 'Roboto', sans-serif;
-=======
-    color: white;
-}
-
-.hero-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.hero-content h1 {
-    font-family: 'Oswald', sans-serif;
->>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     letter-spacing: 2px;
-<<<<<<< HEAD
-    color: white;
+    color: #222;
 }
-
 .hero-content p {
-    font-size: 1.5rem;
-    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+    color: #555;
 }
 
-/* Main Content */
 .founder-main {
-    padding: 80px 20px;
-    position: relative;
+    padding: 40px 0;
+    background: #fff;
 }
-
 .founder-container {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
+    padding: 0 16px;
 }
-
 .founder-card {
-    background: white;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    border: 1px solid #eee;
     overflow: hidden;
-=======
 }
-
-.hero-content p {
-    font-family: 'Saira Condensed', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 300;
-    opacity: 0.9;
-}
-
-.founder-content {
-    padding: 80px 0;
-    background: #f8f9fa;
->>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
-}
-
 .founder-profile {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-<<<<<<< HEAD
-    min-height: 600px;
-    align-items: center;
-}
-
-.founder-image-section {
-    padding: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #f8f9fa;
+    gap: 32px;
+    padding: 32px 0;
 }
-
+.founder-image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    background: none;
+}
 .founder-photo img {
-    width: 280px;
-    height: 280px;
+    width: 160px;
+    height: 160px;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #d32f2f;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid #eee;
+    box-shadow: none;
 }
-
 .founder-info-section {
-    padding: 60px;
-    background: white;
-}
-
-.founder-info h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3.5rem;
-    color: #d32f2f;
-    margin-bottom: 0.5rem;
-}
-
-.founder-info h2 {
-=======
-    gap: 50px;
-    align-items: start;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.founder-image {
-    position: relative;
-}
-
-.founder-image img {
+    padding: 0;
+    background: none;
     width: 100%;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
 }
-
-.founder-image:hover img {
-    transform: scale(1.02);
+.founder-info h1 {
+    font-size: 2rem;
+    color: #d32f2f;
+    margin-bottom: 0.3rem;
+    background: none;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    text-shadow: none;
+    font-family: inherit;
 }
-
 .founder-info h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 3rem;
-    color: #d32f2f;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-}
-
-.founder-info h3 {
-    font-family: 'Saira Condensed', sans-serif;
->>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: #555;
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem;
     font-weight: 400;
+    opacity: 1;
 }
-
-<<<<<<< HEAD
 .founder-bio {
-    font-size: 1.1rem;
-    line-height: 1.8;
+    font-size: 1rem;
+    line-height: 1.7;
     color: #333;
-    margin-bottom: 2rem;
-    padding: 30px;
-    background: #f8f9fa;
-    border-radius: 15px;
-    border-left: 4px solid #d32f2f;
+    margin-bottom: 1.2rem;
+    padding: 16px;
+    background: #fafafa;
+    border-radius: 8px;
+    border-left: 3px solid #d32f2f;
+    box-shadow: none;
 }
-
 .achievements {
-    background: #f8f9fa;
-    padding: 30px;
-    border-radius: 15px;
-    margin-bottom: 2rem;
+    background: #fafafa;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 1.2rem;
     border: 1px solid #eee;
+    box-shadow: none;
 }
-
 .achievements h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.8rem;
-    color: #d32f2f;
-    margin-bottom: 20px;
-    text-align: center;
-=======
-.founder-description {
-    background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-}
-
-.founder-description p {
     font-size: 1.1rem;
-    line-height: 1.8;
-    color: #333;
-    margin: 0;
-}
-
-.achievements {
-    background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-}
-
-.achievements h4 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.8rem;
     color: #d32f2f;
-    margin-bottom: 20px;
-    font-weight: 600;
+    margin-bottom: 12px;
+    text-align: left;
+    font-family: inherit;
 }
-
 .achievements ul {
     list-style: none;
     padding: 0;
->>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
+    margin: 0;
 }
-
 .achievements li {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
-    font-size: 1.1rem;
+    margin-bottom: 8px;
+    font-size: 1rem;
     color: #333;
-<<<<<<< HEAD
-    padding: 15px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    padding: 8px 0;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
 }
-
+.achievement-icon {
+    color: #d32f2f;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    animation: none;
+}
 .founder-quote {
-    background: #d32f2f;
-    color: white;
-    padding: 30px;
-    border-radius: 15px;
-    margin-bottom: 2rem;
+    background: #f5f5f5;
+    color: #222;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 1.2rem;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: none;
 }
-
+.founder-quote::before { display: none; }
+.founder-quote p {
+    font-size: 1rem;
+    font-style: italic;
+    position: relative;
+    z-index: 2;
+    color: #555;
+}
+.founder-socials {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+}
 .founder-socials a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
-    background: #d32f2f;
-    color: white;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    color: #d32f2f;
     border-radius: 50%;
     font-size: 1.2rem;
     text-decoration: none;
-    transition: background 0.3s ease;
+    border: 1px solid #eee;
+    box-shadow: none;
+    transition: background 0.2s, color 0.2s;
 }
-
 .founder-socials a:hover {
-    background: #b71c1c;
-}
-
-/* Responsive */
-@media (max-width: 968px) {
-    .founder-profile {
-        grid-template-columns: 1fr;
-    }
-    
-    .founder-image-section {
-        padding: 30px;
-    }
-    
-    .founder-photo img {
-        width: 180px;
-        height: 180px;
-    }
-    
-    .founder-info h1 {
-        font-size: 2.2rem;
-    }
-    
-    .hero-content h1 {
-        font-size: 2.2rem;
-    }
-    
-    .founder-main {
-        padding: 30px 15px;
-    }
-
-    .founder-bio {
-        font-size: 1rem;
-        padding: 20px;
-    }
-
-    .achievements li {
-        font-size: 1rem;
-        padding: 12px;
-    }
-
-    .founder-quote p {
-        font-size: 1.1rem;
-=======
-}
-
-.achievement-icon {
-    color: #d32f2f;
-    font-weight: bold;
-    margin-right: 15px;
-    font-size: 1.2rem;
-}
-
-.founder-values {
-    background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.founder-values h4 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.8rem;
-    color: #d32f2f;
-    margin-bottom: 20px;
-    font-weight: 600;
-}
-
-.founder-values p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: #333;
-    font-style: italic;
-    margin: 0;
-    position: relative;
-    padding-left: 20px;
-}
-
-.founder-values p:before {
-    content: '"';
-    position: absolute;
-    left: 0;
-    top: -10px;
-    font-size: 3rem;
-    color: #d32f2f;
-    opacity: 0.3;
-}
-
-@media (max-width: 768px) {
-    .founder-profile {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-    
-    .founder-info h2 {
-        font-size: 2.5rem;
-    }
-    
-    .hero-content h1 {
-        font-size: 2.5rem;
-    }
-    
-    .hero-content p {
-        font-size: 1.2rem;
-    }
-    
-    .founder-content {
-        padding: 50px 0;
->>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
-    }
-}
-
-@media (max-width: 480px) {
-<<<<<<< HEAD
-    .founder-info h1 {
-        font-size: 1.8rem;
-    }
-    
-    .hero-content h1 {
-        font-size: 1.8rem;
-    }
-    
-    .founder-image-section,
-    .founder-info-section {
-        padding: 20px 15px;
-    }
-
-    .founder-photo img {
-        width: 150px;
-        height: 150px;
-    }
-
-    .founder-bio {
-        font-size: 0.9rem;
-        padding: 15px;
-    }
-
-    .achievements li {
-        font-size: 0.9rem;
-        padding: 10px;
-    }
-
-    .founder-quote p {
-        font-size: 1rem;
-    }
-
-    .founder-socials a {
-        width: 45px;
-        height: 45px;
-        font-size: 1.1rem;
-    }
-}
-
-@media (max-width: 700px) {
-    .founder-hero {
-        height: 40vh;
-        padding-top: 60px;
-    }
-
-    .hero-content p {
-        font-size: 1.2rem;
-    }
-} 
-=======
-    .founder-info h2 {
-        font-size: 2rem;
-    }
-    
-    .hero-content h1 {
-        font-size: 2rem;
-    }
-    
-    .founder-description,
-    .achievements,
-    .founder-values {
-        padding: 20px;
-    }
-}
-
-.timeline {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.timeline::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2px;
-    height: 100%;
-    background: var(--primary-color);
-}
-
-.timeline-item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 3rem;
-    position: relative;
-}
-
-.timeline-item::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 20px;
-    height: 20px;
-    background: var(--primary-color);
-    border-radius: 50%;
-}
-
-.year {
-    flex: 1;
-    text-align: right;
-    padding-right: 2rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--primary-color);
-}
-
-.timeline-item .content {
-    flex: 1;
-    padding-left: 2rem;
-    background: #181818;
-    padding: 1.5rem;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-}
-
-.timeline-item .content h3, .timeline-item .content p {
+    background: #d32f2f;
     color: #fff;
 }
-
-.founder-quote {
-    text-align: center;
-    margin-top: 4rem;
-    padding: 3rem;
-    background: #181818;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-}
-
-.founder-quote blockquote {
-    font-size: 1.5rem;
-    font-style: italic;
-    color: var(--primary-color);
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-    .timeline::before {
-        left: 0;
-    }
-    
-    .timeline-item {
+@media (max-width: 700px) {
+    .founder-profile {
         flex-direction: column;
+        gap: 24px;
+        padding: 24px 0;
     }
-    
-    .year {
-        text-align: left;
-        padding-right: 0;
-        margin-bottom: 1rem;
+    .founder-photo img {
+        width: 110px;
+        height: 110px;
     }
-    
-    .timeline-item::before {
-        left: 0;
+    .founder-info h1 {
+        font-size: 1.3rem;
     }
->>>>>>> cd48bed (Сайтқа соңғы өзгерістер енгізілді)
+    .founder-info h2 {
+        font-size: 1rem;
+    }
 } 
